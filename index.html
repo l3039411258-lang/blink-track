@@ -1,0 +1,182 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111111">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="信任的盲道">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>信任的盲道</title>
+  <link rel="icon" href="data:,">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/images/icon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="deck" id="deck" aria-label="《信任的盲道》H5专题">
+    <div class="page-progress" aria-hidden="true"><span id="progressBar"></span></div>
+    <section class="slide cover is-active" id="cover" data-audio="cane" data-page="01 / 07">
+      <img class="cover-photo" src="assets/images/tactile-paving-cover.png" alt="黄色盲道砖特写">
+      <div class="cover-mask"></div>
+      <div class="cover-copy">
+        <p class="cover-kicker">融合新闻专题</p>
+        <h1>信任的<br>盲道</h1>
+        <p class="lead">轻触屏幕，走进真相</p>
+        <p class="cover-date">NEWS LAB · 2026</p>
+      </div>
+      <p class="corner-note">佩戴耳机体验更佳</p>
+    </section>
+
+    <section class="slide anger" id="anger" data-page="02 / 07">
+      <p class="section-kicker">第一幕</p>
+      <h2 class="scene-title">被点燃的怒火</h2>
+      <p class="scene-subtitle">一段未经核实的视频，把公共情绪迅速推向高处。</p>
+      <p class="video-label">网传视频片段（经模糊处理）</p>
+      <div class="video-shell" aria-label="模糊处理的竖版视频模拟片段">
+        <img src="assets/media/mock-blurred-video.gif" alt="">
+        <div class="video-noise"></div>
+      </div>
+      <p class="danmu danmu-1">太心疼了！盲道本来就是她们的路！</p>
+      <p class="danmu danmu-2">必须严惩撞人者！</p>
+      <p class="danmu danmu-3">北京交警已经回应了，等结果！</p>
+      <button class="truth-button" type="button" data-go="reversal">点击了解真相 →</button>
+    </section>
+
+    <section class="slide reversal" id="reversal" data-page="03 / 07">
+      <div class="reversal-copy">
+        <p class="section-kicker">第二幕</p>
+        <h2 class="reveal-line line-1">经查，该视频系摆拍。</h2>
+        <p class="reveal-line line-2">北京警方通报：刘某（男，26岁）和江某某（女，24岁）为吸粉引流、博取关注、牟取私利，虚假摆拍相关视频并通过短视频平台发布。</p>
+        <p class="reveal-line line-3">相关人员已被依法采取刑事强制措施。</p>
+        <p class="source-line">北京警方｜2026年5月16日</p>
+      </div>
+      <div class="stamp" aria-label="情况属实"><span>情况</span><span>属实</span></div>
+    </section>
+
+    <section class="slide timeline" id="timeline" data-page="04 / 07">
+      <p class="section-kicker">交互时间轴</p>
+      <h2 class="timeline-title">从同情到反转</h2>
+      <p class="timeline-hint">← 左右滑动查看完整时间线 →</p>
+      <div class="timeline-scroll" aria-label="横向时间线">
+        <div class="timeline-track">
+          <div class="timeline-rail"></div>
+          <button class="node node-1" type="button" data-title="5月9日｜视频发布，全网发酵" data-detail="5月9日，“抱抱盲兔”发布视频，称盲道上被电动车撞倒遭辱骂。视频迅速引发转发与讨论，公共情绪集中在盲道安全与无障碍出行问题上。">
+            <span class="dot"></span>
+            <strong>5月9日</strong>
+            <span>视频发布<br>全网发酵</span>
+          </button>
+          <button class="node node-2" type="button" data-title="5月10日｜媒体跟进，公益人士发声" data-detail="多家媒体跟进报道事件，残障公益组织呼吁关注盲道安全问题。舆论焦点集中在“盲道被占用”“无障碍设施缺失”等话题上。">
+            <span class="dot"></span>
+            <strong>5月10日</strong>
+            <span>媒体跟进<br>公益人士发声</span>
+          </button>
+          <button class="node node-3" type="button" data-title="5月中旬｜账号回应与删帖" data-detail="涉事账号相关内容随后出现删除、清空等变化。含糊的回应未能解释视频叙事中的关键矛盾，也让网友继续追问事实来源。">
+            <span class="dot"></span>
+            <strong>5月中旬</strong>
+            <span>博主删帖<br>回应含糊</span>
+          </button>
+          <button class="node node-4" type="button" data-title="5月中旬｜网友质疑，摆拍猜测浮现" data-detail="网友比对视频细节发现多处矛盾，评论区出现大量“摆拍”质疑。话题风向开始反转，舆论从同情转向追问真相。">
+            <span class="dot"></span>
+            <strong>5月中旬</strong>
+            <span>网友质疑<br>摆拍猜测浮现</span>
+          </button>
+          <button class="node node-5" type="button" data-title="5月16日｜警方通报：系摆拍" data-detail="北京警方发布通报：刘某、江某某虚假摆拍相关视频并通过短视频平台对外发布，误导大量网民关注和讨论，造成恶劣影响，二人已被依法采取刑事强制措施。全剧终，但信任的裂痕，已经产生。">
+            <span class="dot"></span>
+            <strong>5月16日</strong>
+            <span>警方通报<br>系摆拍</span>
+          </button>
+          <div class="timeline-end">从同情到愤怒，只需要一条未经核实的视频。</div>
+          <div class="timeline-more">右滑查看完整时间线 <span aria-hidden="true">→</span></div>
+        </div>
+      </div>
+      <div class="timeline-layer" id="timelineLayer" aria-hidden="true">
+        <div class="layer-card" role="dialog" aria-modal="true" aria-labelledby="layerTitle">
+          <h3 id="layerTitle"></h3>
+          <p id="layerDetail"></p>
+          <button class="close-layer" type="button">关闭</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide vote" id="vote" data-page="05 / 07">
+      <div class="vote-panel" id="votePanel">
+        <p class="section-kicker dark">互动投票</p>
+        <h2>看到类似的求助/维权视频，你的第一反应是？</h2>
+        <div class="vote-options">
+          <button class="vote-button option-a" type="button" data-choice="A">A. 立刻相信并转发</button>
+          <button class="vote-button option-b" type="button" data-choice="B">B. 先存疑，等官方核实</button>
+          <button class="vote-button option-c" type="button" data-choice="C">C. 感到麻木，不想关注了</button>
+        </div>
+        <p class="vote-note">点击选项提交你的答案，查看大家的选择 ↓</p>
+      </div>
+      <div class="result-panel" id="resultPanel" aria-hidden="true">
+        <p class="section-kicker dark">投票结果</p>
+        <h2>当前投票结果</h2>
+        <div class="bar-row">
+          <span>B. 先存疑，等官方核实 —— 60%</span>
+          <div class="bar-shell"><div class="bar bar-b"></div></div>
+        </div>
+        <div class="bar-row">
+          <span>A. 立刻相信并转发 —— 25%</span>
+          <div class="bar-shell"><div class="bar bar-a"></div></div>
+        </div>
+        <div class="bar-row">
+          <span>C. 感到麻木 —— 15%</span>
+          <div class="bar-shell"><div class="bar bar-c"></div></div>
+        </div>
+        <p class="result-note">数据基于本次专题读者投票实时更新</p>
+        <button class="return-button" type="button">← 返回</button>
+      </div>
+    </section>
+
+    <section class="slide audio-focus" id="audio" data-page="06 / 07">
+      <div class="headphone-icon" aria-hidden="true">
+        <svg viewBox="0 0 80 80" role="img">
+          <path d="M18 42a22 22 0 0 1 44 0" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+          <rect x="12" y="41" width="14" height="22" rx="6" fill="currentColor"/>
+          <rect x="54" y="41" width="14" height="22" rx="6" fill="currentColor"/>
+        </svg>
+      </div>
+      <p class="section-kicker">音频特写</p>
+      <h2>请佩戴耳机，闭上眼</h2>
+      <div class="audio-control">
+        <button class="play-audio" type="button" aria-label="播放环境音频">
+          <span></span>
+        </button>
+        <p>点击播放：一位视障者独自出行10分钟的实录音频</p>
+      </div>
+      <p class="after-audio" id="afterAudio">你看，真正的困境，从不需要剧本。</p>
+    </section>
+
+    <section class="slide closing" id="closing" data-page="07 / 07">
+      <div class="closing-copy">
+        <p class="section-kicker">结语</p>
+        <h2>信任如盲道，一旦断裂，修补需要更长时间。</h2>
+        <p>我们可以谨慎，但请不要让冷漠成为习惯。</p>
+      </div>
+      <div class="poster">
+        <div class="poster-title">《信任的盲道》</div>
+        <div class="poster-subtitle">扫码查看完整融合新闻专题</div>
+        <img class="poster-qr" src="assets/images/qr-placeholder.png" alt="专题二维码">
+        <div class="poster-footer">新闻实验室出品 · 2026年5月</div>
+      </div>
+      <p class="save-hint">长按海报即可保存分享至朋友圈</p>
+    </section>
+  </main>
+
+  <button class="audio-pill" id="audioPill" type="button" aria-label="切换背景音乐">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M4 10v4h4l5 4V6L8 10H4z" fill="currentColor"/>
+      <path d="M16 9c1.1 1.1 1.1 4.9 0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+  </button>
+
+  <audio id="caneAudio" src="assets/audio/cane-tap.wav" preload="auto"></audio>
+  <audio id="bgAudio" src="assets/audio/ambient-pad.wav" preload="auto" loop></audio>
+  <audio id="streetAudio" src="assets/audio/street-audio.wav" preload="auto"></audio>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
+
